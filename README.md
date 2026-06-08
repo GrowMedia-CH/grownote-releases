@@ -20,12 +20,31 @@
 
 Beim ersten Diktieren fragt macOS nach **Mikrofon**- und **Bedienungshilfen/Eingabeüberwachungs**-Rechten — diese in den Systemeinstellungen erlauben.
 
+## API-Keys einrichten (für die Cloud-Modi)
+
+GrowNote enthält **keine** API-Keys — du nutzt deine **eigenen**. Die Keys bleiben lokal im macOS-Schlüsselbund, die Nutzungskosten laufen über deinen eigenen Anbieter-Account. Du brauchst sie nur für die **Cloud**-Variante. **Die Keys musst du zuerst beim Anbieter erstellen:**
+
+| Wofür | Key erstellen unter |
+|---|---|
+| Cloud-Transkription (Whisper) | **OpenAI** → [platform.openai.com/api-keys](https://platform.openai.com/api-keys) |
+| Schriftsprache / LLM | **Anthropic** → [console.anthropic.com](https://console.anthropic.com) → API Keys |
+
+1. Beim jeweiligen Anbieter einen Key **erstellen** (Account nötig, ggf. Guthaben aufladen).
+2. In GrowNote: **Einstellungen → API-Keys** eintragen.
+
+> **Komplett ohne Keys / offline:** In den Einstellungen die Transkription auf **Lokal** stellen (lädt einmalig ein Whisper-Modell) und für die Schriftsprache **Ollama** lokal nutzen.
+
 ## Was kann GrowNote?
 
-- **Globales Push-to-talk** — rechte ⌥-Taste halten, sprechen, loslassen → Text wird am Cursor eingefügt (in jeder App)
-- **Modi:** Raw (1:1), Polished (geglättet), Compose (Sprachbefehl → Antwort), Emoji
-- **Offline möglich** — lokales Whisper-Modell + Ollama, ganz ohne Cloud
-- **Oder Cloud** — mit eigenen OpenAI-/Anthropic-Keys (bleiben im Schlüsselbund)
+**Globales Push-to-talk:** rechte ⌥-Taste (Option) **halten** + zweite Taste, sprechen, loslassen → Text erscheint am Cursor (in jeder App). Zwei Modi:
+
+| Tastenkombination | Modus | Was es macht |
+|---|---|---|
+| **⌥ᴿ + ⇧** (Shift) | **Diktat** | 1:1-Transkript, kein LLM |
+| **⌥ᴿ + ⌘** (Command) | **Schriftsprache** | sauberes, geglättetes Deutsch (LLM) |
+
+- **Offline möglich** — lokales Whisper-Modell (+ Ollama für Schriftsprache), ganz ohne Cloud und ohne Keys
+- **Oder Cloud** — mit eigenen OpenAI-/Anthropic-Keys (siehe oben)
 - **Aktualisiert sich selbst** — sichere Auto-Updates via [Sparkle](https://sparkle-project.org)
 
 ## Updates
