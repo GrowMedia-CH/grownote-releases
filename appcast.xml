@@ -3,6 +3,23 @@
     <channel>
         <title>GrowNote</title>
         <item>
+            <title>0.1.11</title>
+            <pubDate>Fri, 12 Jun 2026 12:00:27 +0200</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/GrowMedia-CH/grownote-releases/main/GrowNote-v0.1.11.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/GrowMedia-CH/grownote-releases/main/GrowNote-v0.1.11.zip" length="3489067" type="application/octet-stream" sparkle:edSignature="iRiqhR68jWG8kZC+7XXqvaTGV/LgNLm/tnaa/pbSznA1ZV177VjoOrPenU0rSDlC9yGDjweWBu/7k9Lq72/rDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/GrowMedia-CH/grownote-releases/main/GrowNote12-11.delta" sparkle:deltaFrom="11" length="37454" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4sauMzz7qLHD+m7gVa3DPbILspPAWwTic2BBOeFrbqgVX3VDwC1XiGr/8r73arBmnfNI1ZCqal/d6cVDytdoAA=="/>
+                <enclosure url="https://raw.githubusercontent.com/GrowMedia-CH/grownote-releases/main/GrowNote12-10.delta" sparkle:deltaFrom="10" length="42346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MhvDDdp13fDQaxqZalu4snDFtJ8naAmH70JnVj/r+qb5qelGcOfV+ocGvbxBnho9Tfv+J6xZiv7QgiLPFJEjDg=="/>
+                <enclosure url="https://raw.githubusercontent.com/GrowMedia-CH/grownote-releases/main/GrowNote12-9.delta" sparkle:deltaFrom="9" length="36886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BS9Rj/8fT9Isdxx7lnDmct9l8RWz5IuMbo82BcO2NP9fAiXxQM8d7OevlBuNMBRPKO5OkZA0yEiwq9wQt1iWBQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/GrowMedia-CH/grownote-releases/main/GrowNote12-8.delta" sparkle:deltaFrom="8" length="44082" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="p6hZItY76rTre3z0hDy2zICKrWG6N5ltQN6Ptkywh0rC4OaBMOwfg3Wt7cmVfKyYd6QPcv/lKEv1phnCQV/NCA=="/>
+                <enclosure url="https://raw.githubusercontent.com/GrowMedia-CH/grownote-releases/main/GrowNote12-7.delta" sparkle:deltaFrom="7" length="71766" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="V1EVZBkPKa+JpOOX+RZy80aGtWosp4unliCmuEVjAVqnoDnH7otMLbhWE+ED780dXkzPt3/WVd5720b/HKHtAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.10</title>
             <pubDate>Fri, 12 Jun 2026 10:39:34 +0200</pubDate>
             <sparkle:version>11</sparkle:version>
@@ -34,23 +51,6 @@
                 <enclosure url="https://raw.githubusercontent.com/GrowMedia-CH/grownote-releases/main/GrowNote10-7.delta" sparkle:deltaFrom="7" length="64334" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JTFc+0qs53+lkIqIhQFRp+FOxVNvTyZnnheB1b0suB46F+AgTyHbjSPL+FuzHdfgK2s03/oLJKcuhL4Su7vlAw=="/>
                 <enclosure url="https://raw.githubusercontent.com/GrowMedia-CH/grownote-releases/main/GrowNote10-6.delta" sparkle:deltaFrom="6" length="67142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jOYUrOROHNR+gsaSSi7iaUmypiepc1bxKvX1gCz5tNU7Qh7DYyvRfNezHSqhfJi3hGQj9Ko1ZRiDStAMevHJDA=="/>
                 <enclosure url="https://raw.githubusercontent.com/GrowMedia-CH/grownote-releases/main/GrowNote10-5.delta" sparkle:deltaFrom="5" length="106738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iIixq+owrfy0YT+IM7OC7WdL+NDWoOt0jK+FMRmAjva1TQM0tPZqViKcCncUUTCd1I/1/0lc6Cw2Z+ay1EHcBw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.1.8</title>
-            <pubDate>Tue, 09 Jun 2026 14:35:52 +0200</pubDate>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/GrowMedia-CH/grownote-releases/main/GrowNote-v0.1.8.html</sparkle:releaseNotesLink>
-            <enclosure url="https://raw.githubusercontent.com/GrowMedia-CH/grownote-releases/main/GrowNote-v0.1.8.zip" length="3488827" type="application/octet-stream" sparkle:edSignature="nMLmsLbk5QHIuo/9bbFnnAOPkqUaQQmfJUouWlaKMhbTVmAb1D6RrvZy3MBsRhYDRlqN4p7NM4r3iMbvTR0fBg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/GrowMedia-CH/grownote-releases/main/GrowNote9-8.delta" sparkle:deltaFrom="8" length="37018" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="meZD7DwpEuGb6c1LKYcMhmXK1ZcddZleRaokJBcW6RTgY5CWvo5ACudhBR4NwKtZSBQrKxwgXufapXP/2neoBg=="/>
-                <enclosure url="https://raw.githubusercontent.com/GrowMedia-CH/grownote-releases/main/GrowNote9-7.delta" sparkle:deltaFrom="7" length="68598" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9Ht+KjQgNXg79ipYR1hx50GL7yYsH56pW/cchXLgVBFQ2a2EfHh/HrTERxxSMDSMeax+Rbr8D5RZJr3TdmIlCQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/GrowMedia-CH/grownote-releases/main/GrowNote9-6.delta" sparkle:deltaFrom="6" length="72614" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Arrx83du9G/lOWvSB/qSxHsQRNCjb4AOy1NCOaSGeUXkl9A4oTZbeB4Wo/iwOiIQeacckTtM4WtzxBGf+Xl3Cw=="/>
-                <enclosure url="https://raw.githubusercontent.com/GrowMedia-CH/grownote-releases/main/GrowNote9-5.delta" sparkle:deltaFrom="5" length="107962" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kxMaO+nJ3S1uTJvhNVwzMF3gDyp+I6HjtRZ2Dggn2rugjBGfjJQwph1z/auC+vvW6kpQok0b4fT9LSkPu+2oAQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/GrowMedia-CH/grownote-releases/main/GrowNote9-4.delta" sparkle:deltaFrom="4" length="128934" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HV4Uo0vzyniJhueai+E3O2FQbWhRpZoMToJVTt/zskgePOlkNaBqvQcl+qWeaqBsm01wEeE/EjHM0uWVY3zgAA=="/>
             </sparkle:deltas>
         </item>
     </channel>
